@@ -1,0 +1,63 @@
+Q4. 
+•    
+•    
+•     
+•    All of the above and more!
+
+
+
+
+//creates a quiz
+const quizContainer = document.getElementById('quiz');
+const resultsContainer = document.getElementById('results');
+const submitButton = document.getElementById('submit');
+
+const quizQuestions = [
+    {
+      question: "Davo's Doctor of Creative Industries (research) explored:",
+      answers: {
+        a: "Videography",
+        b: "Photogrammetry",
+        c: "3D Game Engines",
+        d: "Procurement of Creative Services"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "Davo works at:",
+      answers: {
+        a: "David Pyle Creative",
+        b: "Queensland University of Technology",
+        c: "Queensland Museum Network",
+        d: "All of the above"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "Davo’s research skills include:",
+      answers: {
+        a: "Interviewing",
+        b: "Writing",
+        c: "Collaborative Team Building",
+        d: "All of the above"
+      },
+      correctAnswer: "d"
+    },
+    {
+      question: "Davo is super passionate about:",
+      answers: {
+        a: "The Environment",
+        b: "Story-telling",
+        c: "Cultural Heritage",
+        d: "All of the above and more!"
+      },
+      correctAnswer: "d"
+    }
+  ];
+
+
+function buildQuiz(){
+    }
+    
+function showResults(){
+    }
